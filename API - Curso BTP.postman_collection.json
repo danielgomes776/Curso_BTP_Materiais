@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "61193418-3331-4799-bb73-606eb0f85be5",
+		"name": "API - Curso BTP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38997659",
+		"_collection_link": "https://chatsync.postman.co/workspace/My-Workspace~809e8616-b690-4fe0-8883-8ad6de5625ae/collection/38997659-61193418-3331-4799-bb73-606eb0f85be5?action=share&source=collection_link&creator=38997659"
+	},
+	"item": [
+		{
+			"name": "Home",
+			"item": [
+				{
+					"name": "Get Server Date",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pessoa",
+			"item": [
+				{
+					"name": "Get Pessoas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/pessoa",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"pessoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar Pessoa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Daniel\",\r\n    \"sobrenome\": \"Gomes4\",\r\n    \"email\": \"teste@gmail.com\",\r\n    \"idade\": 19,\r\n    \"data_nasc\": \"27/07/2005\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}/pessoa",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"pessoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Pessoa",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"Daniel Editado\",\r\n    \"sobrenome\": \"Gomes\",\r\n    \"email\": \"teste@gmail.com\",\r\n    \"idade\": 19,\r\n    \"data_nasc\": \"27/07/2005\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}/pessoa",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"pessoa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Pessoa Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}/pessoa",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"pessoa"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
