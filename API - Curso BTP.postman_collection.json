@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "61193418-3331-4799-bb73-606eb0f85be5",
+		"_postman_id": "f255e3be-3fa6-4090-bb29-64b9328d6971",
 		"name": "API - Curso BTP",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "38997659",
-		"_collection_link": "https://chatsync.postman.co/workspace/My-Workspace~809e8616-b690-4fe0-8883-8ad6de5625ae/collection/38997659-61193418-3331-4799-bb73-606eb0f85be5?action=share&source=collection_link&creator=38997659"
+		"_exporter_id": "37084825"
 	},
 	"item": [
 		{
@@ -56,7 +55,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nome\": \"Daniel\",\r\n    \"sobrenome\": \"Gomes4\",\r\n    \"email\": \"teste@gmail.com\",\r\n    \"idade\": 19,\r\n    \"data_nasc\": \"27/07/2005\"\r\n}",
+							"raw": "{\r\n    \"nome\": \"Carlos\",\r\n    \"sobrenome\": \"Souza\",\r\n    \"email\": \"carlossz@gmail.com\",\r\n    \"idade\": 28,\r\n    \"data_nasc\": \"14/03/1996\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -82,7 +81,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"Daniel Editado\",\r\n    \"sobrenome\": \"Gomes\",\r\n    \"email\": \"teste@gmail.com\",\r\n    \"idade\": 19,\r\n    \"data_nasc\": \"27/07/2005\"\r\n}",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"Carlos Editado\",\r\n    \"sobrenome\": \"Souza\",\r\n    \"email\": \"carlossz@gmail.com\",\r\n    \"idade\": 28,\r\n    \"data_nasc\": \"14/03/1996\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
