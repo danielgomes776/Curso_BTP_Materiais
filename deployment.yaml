@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: <nome>
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: <nome>
+  template:
+    metadata:
+      labels:
+        app: <nome>
+    spec:
+      containers:
+      - name: <nome>
+        image: <seu-usuario>/<nome_da_imagem>:latest
+        ports:
+        - containerPort: 5000
